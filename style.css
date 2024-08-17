@@ -1,0 +1,692 @@
+.blocklogo img{
+    width: 60px;
+    bottom: 25px;
+}
+.blocklogo{
+    display: flex;
+    align-items: center;
+    bottom: 20px;
+}
+body{
+    background-image: url(bgrrd.jpeg)
+    
+    margin: 0;
+}
+header{
+    background-image: url(bbb.jpeg);
+    
+    width: 100%;
+}
+.header h2 {
+    font-size: xx-large;
+    line-height: 1.8;
+    margin: 30px;
+
+}
+.header{
+    display: flex;
+}
+
+#{
+    margin: 0%;
+}
+nav ul li{
+    display: inline-flex;
+    margin: 10px;
+    list-style: none;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    color: #351c1c;
+}
+
+
+
+
+/* styles.css */
+
+/* Réinitialisation des marges et du padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Mise en page générale 
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 1,3em, 16px 120%;
+    line-height: 1.6;
+    background-color: #774747;
+    
+   
+    
+}
+
+
+
+
+.body{
+    
+}
+
+
+body{
+    background-image: url(hh.jpeg)
+    b
+}
+h2{
+    color: rgb(226, 43, 156);
+}
+h3{
+    color: blueviolet;
+}
+h4{
+    color: #74468d;
+}
+/* styles.css */
+
+/* Réinitialisation des marges et du padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mise en page générale */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 1,3em 16px 120%;
+    line-height: 1.6;
+    background-color: greenyellow
+    color: #333;
+    
+}
+.bv {
+    font-size: 10px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between ;
+  }
+  button{
+    margin: 10px;
+  }
+  
+
+header {
+    background-image: url(bbb.jpeg);
+    color: #447266;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 0 1rem;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background: #ac9595;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: flex;
+    width: 100%;
+    bottom: 0;
+}
+
+header, footer {
+    text-align: center;
+}
+
+Accueil 
+.welcome {
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+.welcome h2{
+    font-size: 2rem;
+    text-align: center;
+    background-color: #447266;
+}
+
+.welcome p {
+    margin: 1rem 0;
+}
+
+.welcome a {
+    text-decoration: none;
+    color: #fff;
+    background: #007BFF;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+/* Détails du Cours */
+.course-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.course-details h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-size: x-large;
+}
+
+.course-details p {
+    margin-bottom: 1rem;
+    font-size: x-large;
+}
+
+.course-details .modules {
+    margin-top: 2rem;
+    font-size: x-large;
+}
+
+.course-details .modules h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: x-large;
+}
+
+.course-details .modules ul {
+    list-style: none;
+    font-size: x-large;
+}
+
+.course-details .modules ul li {
+    background: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: x-large;
+}
+
+/* À Propos */
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: hsla(0, 0%, 74%, 0.911);
+    border-radius: 8px;
+}
+
+.about h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.about ul {
+    list-style: none;
+}
+ 
+.about ul li {
+    margin: 0.5rem 0;
+}
+
+/* Contact */
+.contact {
+    max-width: 50px;
+    
+    margin: 0 auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact label {
+    margin: 20px;
+    width: 50%;
+}
+
+.contact input, .contact textarea {
+    padding: 0.5rem;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    margin: 20px;
+    padding: 0.5rem;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #0056b3;
+    height: 60px;
+}
+
+.Connexion
+.login {
+    max-width: 80px;
+    margin: 10px;
+    padding-top:  1rem;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.login h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.login label {
+    margin-top: 0.5rem;
+}
+
+.login input {
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login button {
+    margin-top: 1rem;
+    padding: 20px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}
+
+
+/* Style du conteneur du formulaire */
+.container {
+    background: #ffffffab;
+    border-radius: 8px;
+    box-shadow: wheat
+    padding: 2rem;
+    width: 30px 20%;
+    max-width: 40px 20%;
+
+}
+
+/* Style du formulaire */
+form {
+    display: flex;
+    flex-direction: calc(60px);
+}
+
+/* Style des éléments de formulaire */
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .icon span {
+    display: block;
+    width: 100%;
+    height: 50%;
+    background-color:  wheat
+    clip-path: circle(50%);
+  }
+  
+
+
+  @media (max-width: 768px) {
+    /* Styles pour les écrans de moins de 768 pixels de large (tablettes et mobiles) */
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    /* Styles pour les écrans plus larges (PC) */
+    body {
+      font-size: 18px;
+    }
+  }
+
+  
+
+ . module 1 introduction au html
+ main {
+    padding: 20px;
+    
+}
+
+.module-content h1, .module-content h2 {
+    color: #333;
+}
+
+.module-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+pre, code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: block;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+
+module 2
+main {
+    padding: 20px;
+}
+
+.module-content h1, .module-content h2 {
+    color: #333;
+}
+
+.module-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+pre, code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: block;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+
+
+modul3
+
+main {
+    padding: 20px;
+}
+
+.module-content h1, .module-content h2 {
+    color: #333;
+}
+
+.module-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Styles spécifiques pour le module 3 */
+.container {
+    background-image: url('images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+pre, code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: block;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+
+
+module 4
+
+
+main {
+    padding: 20px;
+}
+
+.module-content h1, .module-content h2 {
+    color: #333;
+}
+
+.module-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Styles spécifiques pour le module 4 */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+pre, code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: block;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.img1{
+    width: 40%;
+    right: left;
+}
+.img2{
+    width: 55%;
+    margin: 10%;
+    display: flex;
+    position: left;
+    
+    
+}
+.img3{
+    width: 50%;
+    top: 60%;
+    right: 80%;
+    margin: top;
+    position: left;
+
+}
+
+.image4{
+    width: 50%;
+    right: right;
+}
+.image5{
+    width: 30%;
+    right: right;
+}
+
+.image6{
+    width:30% ;
+}
+
+.h6{
+    background-color: black;
+    color: #fff;
+    width: 460px;
+    border: 2px solid;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+.h7{
+    background-color: #007bff;
+
+    width: 460;
+    border: 2px solid;
+    text-align: center;
+    font-size: x-large;
+    
+
+}
+.p{
+font-family: Arial, sans-serif;
+font-size: 19px;
+line-height: 1.6;
+color: black;
+text-align: justify;
+margin: 20px 0;
+padding: 10px;
+font-weight: bold;
+}
+.exmple{
+    background-color: red;
+    color: yellow;
+    text-transform: uppercase;
+}
+.bien{
+    font-size: 40px;
+   color: #007bff;
+    margin: 0px;
+  font-weight: bold;
+text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  
+
+}
+.b{
+    font-size: 16px ;
+    margin: 0, 10px;
+    bottom: 15px;
+}
+#menun{
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    .navbar{
+        display: none;
+    } 
+    .menun{
+        display: flex;
+        align-items: center;
+        flex-direction: column;  
+    }
+    
+}
+
+
+.e{
+    color: rgb(80, 53, 177);
+}
